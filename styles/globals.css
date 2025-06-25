@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', 'SF Pro Display', 'Segoe UI', sans-serif;
+  background: #0e101c;
+}
