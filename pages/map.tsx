@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 
-const BridgeGraph = dynamic(() => import('@/components/BridgeGraph'), { ssr: false });
+const BridgeGraph = dynamic(() => import('../components/BridgeGraph'), { ssr: false });
 
 export default function Map() {
   return (
